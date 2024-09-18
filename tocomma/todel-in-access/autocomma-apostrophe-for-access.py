@@ -2,7 +2,7 @@ import csv
 import logging
 
 # Set up logging
-logging.basicConfig(filename='c-only-100-299.log', level=logging.INFO, format='%(asctime)s - %(message)s')
+logging.basicConfig(filename='c-only-900-999.log', level=logging.INFO, format='%(asctime)s - %(message)s')
 
 def process_csv(input_file, output_file):
     try:
@@ -32,8 +32,8 @@ def process_csv(input_file, output_file):
         logging.error(f"Error processing file: {e}")
 
 # Define file paths
-input_file = 'controlno-only/c-only-100-299.csv'  # Your input CSV
-output_file = 'to-access-100-299.csv'  # The output file
+input_file = 'controlno-only/controlNumber_only_900-999.csv'  # Your input CSV
+output_file = 'to-access-900-999.csv'  # The output file
 
 # Process the CSV
 process_csv(input_file, output_file)
